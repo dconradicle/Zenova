@@ -39,6 +39,7 @@ const StyledImage = styled(Image)`
     height: 300px;
     align-content: center;
     padding: 0;
+    image-resolution: 300dpi;
 `;
 const StyledCol = styled(Col)`
     height: 350px;

@@ -17,7 +17,7 @@ const defaultMap = () => {
     <Container fluid>
       <Row>
         <Col><a id="world"></a>
-        <Image cloudName="dvqj6m2qs" publicId="worldMap" loading="lazy" dpr="auto" responsive width="auto"  crop="scale" responsiveUseBreakpoints="true" ><Transformation crop="scale" />  <Placeholder type="pixelate" /></Image>
+        <StyledImage cloudName="dvqj6m2qs" publicId="worldMap" loading="lazy" dpr="auto" responsive width="auto"  crop="scale" responsiveUseBreakpoints="true" ><Transformation crop="scale" />  <Placeholder type="pixelate" /></StyledImage>
         </Col>
       </Row>
     </Container>
@@ -27,5 +27,9 @@ const defaultMap = () => {
 
 const StyledLink = styled(Link)`
   color: black
+`;
+
+const StyledImage = styled(Image)`
+  image-resolution: 300dpi;
 `;
 export default defaultMap;
