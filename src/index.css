@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Lettersketch';
+  src: local('Lettersketch'), url(./Fonts/Lettersketch.ttf) format('truetype');
+  
+}
+@font-face {
+  font-family: 'HeadCase-ljwV';
+  src: local('HeadCase-ljwV'), url(./Fonts/HeadCase-ljwV.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'VoiceInMyHead-J0xa';
+  src: local('VoiceInMyHead-J0xa'), url(./Fonts/VoiceInMyHead-J0xa.ttf) format('truetype');
+}

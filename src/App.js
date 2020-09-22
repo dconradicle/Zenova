@@ -1,26 +1,82 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from 'styled-components';
+import Story from './Compnents/pages/story';
+import Home from './Compnents/pages/home';
 import './App.css';
+import TopMenu from './Compnents/playermenu/playerMenu';
+import Header from './Compnents/header/header';
+import Characters from './Compnents/pages/characters';
+import Maps from './Compnents/pages/maps';
+import Npc from './Compnents/pages/npc/allies/aliies';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect
+} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledDiv>
+    <Header />
+    <Router>
+    <TopMenu />
+      <Route>
+        <Switch>
+          <Route 
+          exact path ="/home"
+          render={props => {
+            return(
+              <Home />
+            );
+          }}
+            />
+            <Route
+            exact path ="/">
+              <Redirect to="/home" />
+            </Route>
+            <Route 
+          exact path ="/story"
+          render={props => {
+            return(
+              <Story />
+            );
+          }} 
+          />
+            <Route 
+          exact path ="/characters"
+          render={props => {
+            return(
+              <Characters />
+            );
+          }} 
+          />
+           <Route 
+          exact path ="/Maps"
+          render={props => {
+            return(
+              <Maps />
+            );
+          }} 
+          />
+          <Route 
+          exact path ="/npc"
+          render={props => {
+            return(
+              <Npc />
+            );
+          }} 
+          />
+        </Switch>
+      </Route>
+    </Router>
+    </StyledDiv>
   );
 }
+
+const StyledDiv = styled.div`
+    background: linear-gradient(to right, rgba(255,255,255,1), #0f3443);
+`;
 
 export default App;

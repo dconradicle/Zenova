@@ -1,0 +1,17 @@
+openapi: "3.0.2"
+info:
+  components:
+    schemas:
+      message:
+  title: Zenova API
+  version: "1.0"
+paths:
+  /characters:
+    description: all the characters and their descriptions
+    get:
+      summary: list all characters
+      description: |
+        list all the characters in alphebetical order
+      responses:
+        "200":
+          description: All the messages
