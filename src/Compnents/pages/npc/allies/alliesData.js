@@ -1,4 +1,4 @@
-import hanna from '../portraits/Hannah.jpeg';
+import hanna from '../portraits/Hannah.jpg';
 import kii from '../portraits/kii_smii_sti_mi.jpg';
 
 
