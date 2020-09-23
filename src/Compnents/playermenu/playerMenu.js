@@ -19,7 +19,7 @@ const TopMenu = () => {
         <NavDropdown.Item><StyledLink to="characters#Ander Stormwind">Ander Stormwind</StyledLink></NavDropdown.Item>
         <NavDropdown.Item><StyledLink to="characters#Leon Feathertorn">Leon Feathertorn</StyledLink></NavDropdown.Item>
         <NavDropdown.Item><StyledLink to="characters#Kaius Sicarius">Kaius Sicarius</StyledLink></NavDropdown.Item>
-        <NavDropdown.Item><StyledLink to="characters#Flacără 'Thicktail' Fierar">Flacără "Thicktail" Fierar</StyledLink></NavDropdown.Item>
+        <NavDropdown.Item><StyledLink to="characters#Flacara 'Thicktail' Fierar">Flacără "Thicktail" Fierar</StyledLink></NavDropdown.Item>
       </NavDropdown>
       {/*<Nav.Link><StyledLink to='/history'>History</StyledLink></Nav.Link>*/}
       <Nav.Link><StyledLink to='/npc'>NPC</StyledLink></Nav.Link>
