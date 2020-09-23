@@ -1,6 +1,6 @@
 import hanna from '../portraits/Hannah.jpg';
 import kii from '../portraits/kii_smii_sti_mi.jpg';
-import tomn from '../portraits/Tomn.png';
+import tomn from '../portraits/Tomn.jpg';
 
 
 const AllieObj = [
