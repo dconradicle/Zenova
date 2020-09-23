@@ -18,7 +18,11 @@ const AllieObj = [
         id:2,
         name: 'Kii, Smii, Sti, Mii',
         picture: kii,
-        story:''
+        story:'Kii and Smii wanted to leave the bloodshed of underdark wars and start a new life taking care of a tavern\n\
+        When they followed the cave systems to the bright world they came across an abandoned settlement of 4 houses.\n\
+        They were busy making it into their dream inn when 4 odd looking goblins came out of the caves (the adventures), they took\
+        them to stay at the inn where they bargined for their stay. When the Halidom was discovered they quickly helped out around the place\
+        and when the refugies started showing up, they were eager to help the new customers'
 
     }
 
