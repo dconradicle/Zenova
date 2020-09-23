@@ -1,5 +1,6 @@
 import hanna from '../portraits/Hannah.jpg';
 import kii from '../portraits/kii_smii_sti_mi.jpg';
+import tomn from '../portraits/tomn.jpg';
 
 
 const AllieObj = [
@@ -23,7 +24,12 @@ When they followed the cave systems to the bright world they came across an aban
 They were busy making it into their dream inn when 4 odd looking goblins came out of the caves (the adventures), they took\
 them to stay at the inn where they bargined for their stay. When the Halidom was discovered they quickly helped out around the place\
 and when the refugies started showing up, they were eager to help the new customers.'
-
+    },
+    {
+        id: 3,
+        name: 'Tomn',
+        picture: tomn,
+        story: ''
     }
 
 ];

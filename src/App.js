@@ -86,6 +86,7 @@ function App() {
 
 const StyledDiv = styled.div`
     background: linear-gradient(to right, rgba(255,255,255,1), #0f3443);
+    min-height: 100vh;
 `;
 
 export default App;
