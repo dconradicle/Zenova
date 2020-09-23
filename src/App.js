@@ -8,6 +8,7 @@ import Header from './Compnents/header/header';
 import Characters from './Compnents/pages/characters';
 import Maps from './Compnents/pages/maps';
 import Npc from './Compnents/pages/npc/allies/aliies';
+import Z from './Compnents/pages/npc/gods/gods';
 import {
   BrowserRouter as Router,
   Route,
@@ -65,6 +66,14 @@ function App() {
           render={props => {
             return(
               <Npc />
+            );
+          }} 
+          />
+          <Route 
+          exact path ="/z"
+          render={props => {
+            return(
+              <Z />
             );
           }} 
           />
