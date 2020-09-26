@@ -7,7 +7,7 @@ import Home from './home';
 const ZenTabs = () => {
     return (
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-            <Tab eventKey="Home" title="Home">
+            <Tab eventKey="Home" title="Home" href="home">
                 <Home />
             </Tab>
             <Tab eventKey="Nocturn" title="Nocturn">
