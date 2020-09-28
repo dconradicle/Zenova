@@ -1,24 +1,18 @@
 import React from 'react';
-import Story from './Compnents/pages/story';
-import Home from '../home';
-import TopMenu from './Compnents/playermenu/playerMenu';
-import Characters from './Compnents/pages/characters';
-import Maps from './Compnents/pages/maps';
-import Npc from './Compnents/pages/npc/allies/aliies';
+import CurseMenu from '../CursedFreedom/playermenu/cursedMenu';
 import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
-} from 'react-router-dom';
+    BrowserRouter as Router,
+    Route,
+    Switch
+  } from 'react-router-dom';
 
-function Noc() {
+function CursedFree() {
     return (
       <Router>
-      <TopMenu />
+      <CurseMenu />
         <Route>
           <Switch>
-              <Route 
+           {/*   <Route 
             exact path ="/story"
             render={props => {
               return(
@@ -49,11 +43,11 @@ function Noc() {
                 <Npc />
               );
             }} 
-            />
+        /> */}
           </Switch>
         </Route>
       </Router>
     );
   }
-  
-  export default Noc;
+
+export default CursedFree;

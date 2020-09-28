@@ -9,11 +9,10 @@ import {
 const TopMenu = () => {
     return (
       <StyledNavBar expand="lg" sticky="top">
-  <Navbar.Brand><StyledZenova to='/home'>Zenova</StyledZenova></Navbar.Brand>
+  {/*<Navbar.Brand><StyledZenova to='home'>Zenova</StyledZenova></Navbar.Brand>*/}
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link><StyledLink to='/home'>Home</StyledLink></Nav.Link>
       {/*<Nav.Link><StyledLink to='/story'>Story</StyledLink></Nav.Link>*/}
       <NavDropdown title="Characters" id="basic-nav-dropdown">
         <NavDropdown.Item><StyledLink to="characters#Ander Stormwind">Ander Stormwind</StyledLink></NavDropdown.Item>
@@ -53,7 +52,7 @@ const StyledNavBar = styled(Navbar)`
 `;
 
 const StyledLink = styled(Link)`
-  color: black
+  color: black;
 `;
 const StyledZenova = styled(Link)`
   color: black;
