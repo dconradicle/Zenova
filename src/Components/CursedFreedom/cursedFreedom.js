@@ -1,5 +1,6 @@
 import React from 'react';
 import CurseMenu from '../../global/cursedMenu';
+import CursedCharacters from './cursedPlayers';
 import {
     BrowserRouter as Router,
     Route,
@@ -19,15 +20,15 @@ function CursedFree() {
                 <Story />
               );
             }} 
-            />
+          />*/}
               <Route 
-            exact path ="/characters"
+            exact path ="/cursed"
             render={props => {
               return(
-                <Characters />
+                <CursedCharacters />
               );
             }} 
-            />
+            />{/*
              <Route 
             exact path ="/Maps"
             render={props => {

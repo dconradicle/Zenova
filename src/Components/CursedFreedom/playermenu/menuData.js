@@ -5,10 +5,10 @@ const menuData = [
         id: 1,
         name: 'characters',
         characters: [
+            "Dreadknaught Skulltaker",
             "Kaya Roseheart",
             "Lucien Astoshan",
-            "Varis Nailo",
-            "Dreadknaught Skulltaker"
+            "Varis Nailo"
         ],
     },
     {

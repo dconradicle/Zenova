@@ -20,24 +20,6 @@ const TopMenu = () => {
         <NavDropdown.Item><StyledLink to="characters#Kaius Sicarius">Kaius Sicarius</StyledLink></NavDropdown.Item>
         <NavDropdown.Item><StyledLink to="characters#Flacara 'Thicktail' Fierar">Flacără "Thicktail" Fierar</StyledLink></NavDropdown.Item>
       </NavDropdown>
-      {/*<Nav.Link><StyledLink to='/history'>History</StyledLink></Nav.Link>*/}
-      <Nav.Link><StyledLink to='/npc'>NPC</StyledLink></Nav.Link>
-      {/*<NavDropdown title="Factions" id="basic-nav-dropdown">
-        <NavDropdown.Item>Hu Port</NavDropdown.Item>
-        <NavDropdown.Item>Angels Of Hell</NavDropdown.Item>
-        <NavDropdown.Item>Sevova</NavDropdown.Item>
-    </NavDropdown>
-      <NavDropdown title="Gods" id="basic-nav-dropdown">
-        <NavDropdown.Item >Theosius Feywild</NavDropdown.Item>
-        <NavDropdown.Item >Nocturn Shadowfell</NavDropdown.Item>
-        <NavDropdown.Item >Eris Aqua</NavDropdown.Item>
-        <NavDropdown.Item >Mars Hell</NavDropdown.Item>
-      </NavDropdown>
-      <NavDropdown title="Maps" id="basic-nav-dropdown">
-        <NavDropdown.Item ><StyledLink to="maps#World">World</StyledLink></NavDropdown.Item>
-        <NavDropdown.Item >Nocturn</NavDropdown.Item>
-        <NavDropdown.Item >HaliDom</NavDropdown.Item>
-      </NavDropdown>*/}
     </Nav>
   </Navbar.Collapse>
 </StyledNavBar>
