@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Tab from './tabs';
+import Tab from './global/tabs';
 import Header from './header/header';
 import styled from 'styled-components';
 

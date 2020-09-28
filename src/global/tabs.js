@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Tabs, Tab } from 'react-bootstrap';
-import Noc from './Components/Nocturn/nocturn';
+import Noc from '../Components/Nocturn/nocturn';
 import Home from './home';
-import CursedFreedom from './Components/CursedFreedom/cursedFreedom';
+import CursedFreedom from '../Components/CursedFreedom/cursedFreedom';
 import {
     HashLink as Link
   } from 'react-router-hash-link';

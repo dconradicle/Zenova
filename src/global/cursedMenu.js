@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from 'styled-components';
-import CursedData from './menuData';
+import CursedData from '../Components/CursedFreedom/playermenu/menuData';
 import {
   HashLink as Link
 } from 'react-router-hash-link';

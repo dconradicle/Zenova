@@ -1,5 +1,5 @@
 import React from 'react';
-import CurseMenu from '../CursedFreedom/playermenu/cursedMenu';
+import CurseMenu from '../../global/cursedMenu';
 import {
     BrowserRouter as Router,
     Route,
