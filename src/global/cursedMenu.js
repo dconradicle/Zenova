@@ -12,7 +12,7 @@ const TopMenu = () => {
   <>
   <NavDropdown key={CursedData.id.toString()} title={CursedData.name} id="basic-nav-dropdown">
     {CursedData.characters.map((char) =>
-     <NavDropdown.Item><StyledLink to={"cursed#"+char}>{char}</StyledLink></NavDropdown.Item>
+     <NavDropdown.Item><StyledLink to={CursedData.name + "#" + char}>{char}</StyledLink></NavDropdown.Item>
     )}
   </NavDropdown>
 </>

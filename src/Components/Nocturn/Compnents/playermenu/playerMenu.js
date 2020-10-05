@@ -20,6 +20,7 @@ const TopMenu = () => {
         <NavDropdown.Item><StyledLink to="characters#Kaius Sicarius">Kaius Sicarius</StyledLink></NavDropdown.Item>
         <NavDropdown.Item><StyledLink to="characters#Flacara 'Thicktail' Fierar">Flacără "Thicktail" Fierar</StyledLink></NavDropdown.Item>
       </NavDropdown>
+      <Nav.Link href="#npc"><StyledLink to='/npc'>NPC</StyledLink></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </StyledNavBar>

@@ -4,15 +4,16 @@ import charData from './charData';
 import { Container, Row, Col } from 'react-bootstrap';
 import {Image, Placeholder} from 'cloudinary-react';
 
-function players() {
+function players(props) {
+    console.log(JSON.stringify(props));
     return(
-            charData.map((charData) =>
+            props.data.map((data) =>
     <StyledContainer>
-        <a id={charData.name}></a>
+        <a id={data.name}></a>
         <Row>
-            <StyledCol xl={4}> <StyledP>{charData.name}</StyledP><StyledImage src={charData.image} loading="lazy" alt="error in loading the page"><Placeholder type="vectorize"></Placeholder>  </StyledImage></StyledCol>
+            <StyledCol xl={4}> <StyledP>{data.name}</StyledP><StyledImage src={data.image} loading="lazy" alt="error in loading the page"><Placeholder type="vectorize"></Placeholder>  </StyledImage></StyledCol>
             <StyledCol> 
-                <SectionBackground> {charData.backstory}</SectionBackground> 
+                <SectionBackground> {data.backstory}</SectionBackground> 
             </StyledCol>
         </Row>
     </StyledContainer>

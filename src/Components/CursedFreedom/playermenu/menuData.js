@@ -15,7 +15,15 @@ const menuData = [
         id:2,
         name: 'NPC',
         characters: [
-            "Fill NPC"
+            "Captain Mullroy",
+            "Polly the Parrot",
+        ]
+    },
+    {
+        id:3,
+        name: 'Nautical Terms',
+        characters: [
+            "Ship"
         ]
     }
 ];

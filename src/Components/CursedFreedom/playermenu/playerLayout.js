@@ -7,7 +7,7 @@ function Players(props) {
     return(
         props.map((props) =>
 <StyledContainer>
-    <a id={props.name}></a>
+    <a id={props.name} />
     <Row>
         <StyledCol xl={4}> <StyledP>{props.name}</StyledP><StyledImage src={props.image} loading="lazy" alt="error in loading the page"><Placeholder type="vectorize"></Placeholder>  </StyledImage></StyledCol>
 

@@ -1,6 +1,9 @@
 import React from 'react';
 import CurseMenu from '../../global/cursedMenu';
 import CursedCharacters from './cursedPlayers';
+import charData from './charData';
+import ShipTerms from './shipTerms';
+import npcData from './npcData';
 import {
     BrowserRouter as Router,
     Route,
@@ -22,10 +25,18 @@ function CursedFree() {
             }} 
           />*/}
               <Route 
-            exact path ="/cursed"
+            exact path ="/characters"
             render={props => {
               return(
-                <CursedCharacters />
+                <CursedCharacters data={charData} />
+              );
+            }} 
+            />
+            <Route 
+            exact path ="/Nautical Terms"
+            render={props => {
+              return(
+                <ShipTerms />
               );
             }} 
             />{/*
@@ -37,14 +48,15 @@ function CursedFree() {
               );
             }} 
             />
+          */}
             <Route 
             exact path ="/npc"
             render={props => {
               return(
-                <Npc />
+                <CursedCharacters data={npcData} />
               );
             }} 
-        /> */}
+        />
           </Switch>
         </Route>
       </Router>
