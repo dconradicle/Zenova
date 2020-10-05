@@ -60,8 +60,10 @@ function ShiptTerms() {
                         <DD>The center part of the boating Vessel</DD>
                         <dt>Topside</dt>
                         <DD>Moving from lower deck to an upper deck</DD>
-                        <dt>Poop deck</dt>
+                        <dt>Quarter Deck</dt>
                         <DD>the upper platform at the back of the boat where the wheel are located</DD>
+                        <dt>Forecastle</dt>
+                        <DD>The raised upper platform at the front of the boat</DD>
                     </dl>
                 </Col>
                 </Row>

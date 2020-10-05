@@ -24,7 +24,6 @@ const ZenTabs = () => {
 
 const StyledTabs = styled(Tabs)`
   color: black;
-  font-family: HeadCase-ljwV;
 `;
 
 export default ZenTabs;
