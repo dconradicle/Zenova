@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import charData from './charData';
 import { Container, Row, Col } from 'react-bootstrap';
 import {Image, Placeholder} from 'cloudinary-react';
+import SideNav from '../../global/sideNav';
 
 function players(props) {
-    console.log(JSON.stringify(props));
     return(
             props.data.map((data) =>
     <StyledContainer>
+        <SideNav data = {data.name} />
         <a id={data.name}></a>
         <Row>
             <StyledCol xl={4}> <StyledP>{data.name}</StyledP><StyledImage src={data.image} loading="lazy" alt="error in loading the page"><Placeholder type="vectorize"></Placeholder>  </StyledImage></StyledCol>
