@@ -24,10 +24,28 @@ const menuData = [
         name: 'Nautical',
         characters: [
             "Ship",
-            "Classes",
-            "Equipment"
+            "Navigation"
         ]
-    }
+    },
+    {
+        id:4,
+        name: 'Ship Roles',
+        characters: [
+            "Captain",
+            "QuaterMaster",
+            "Pilot",
+            "Boatswain",
+            "Master gunner",
+            "Ship Surgeon"
+        ]
+    },
+    /*{
+        id: 5,
+        name: 'Equipment and Ships',
+        characters: [
+            "Weapons and Ammunition"
+        ]
+    }*/
 ];
 
 export default menuData;

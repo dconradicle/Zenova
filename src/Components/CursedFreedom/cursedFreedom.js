@@ -4,6 +4,8 @@ import CursedCharacters from './cursedPlayers';
 import charData from './charData';
 import ShipTerms from './shipTerms';
 import npcData from './npcData';
+import Roles from './roles';
+import rolesData from './rolesData';
 import {
     BrowserRouter as Router,
     Route,
@@ -39,16 +41,15 @@ function CursedFree() {
                 <ShipTerms />
               );
             }} 
-            />{/*
+            />
              <Route 
-            exact path ="/Maps"
+            exact path ="/Ship Roles"
             render={props => {
               return(
-                <Maps />
+                <Roles data={rolesData} />
               );
             }} 
             />
-          */}
             <Route 
             exact path ="/npc"
             render={props => {
