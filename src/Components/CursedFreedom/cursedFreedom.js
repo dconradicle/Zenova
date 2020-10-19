@@ -33,7 +33,7 @@ function CursedFree() {
             }} 
             />
             <Route 
-            exact path ="/Nautical Terms"
+            exact path ="/Nautical"
             render={props => {
               return(
                 <ShipTerms />

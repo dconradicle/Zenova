@@ -21,9 +21,11 @@ const menuData = [
     },
     {
         id:3,
-        name: 'Nautical Terms',
+        name: 'Nautical',
         characters: [
-            "Ship"
+            "Ship",
+            "Classes",
+            "Equipment"
         ]
     }
 ];
